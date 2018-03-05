@@ -4,7 +4,7 @@
 void Whiteboard::on_black_clicked()
 {
     scene->color = ui->black->palette().background().color();
-    ui->currentColor->setStyleSheet("background-color: rgb(255, 255, 255)");
+    ui->currentColor->setStyleSheet("background-color: rgb(0, 0, 0)");
 }
 
 void Whiteboard::on_l_grey_clicked()
